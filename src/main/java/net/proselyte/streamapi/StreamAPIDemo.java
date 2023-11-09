@@ -14,8 +14,8 @@ import static net.proselyte.streamapi.util.StreamAPIUtil.*;
 
 public class StreamAPIDemo {
     public static void main(String[] args) {
-//        List<Specialist> specialists = OldApproachUtil.getSpecialists();
-        List<Specialist> specialists = StreamAPIUtil.getSpecialists();
+        List<Specialist> specialists = OldApproachUtil.getSpecialists();
+//        List<Specialist> specialists = StreamAPIUtil.getSpecialists();
         StreamAPIUtil.printSpecialists(specialists);
 
         // Filter
@@ -46,7 +46,7 @@ public class StreamAPIDemo {
 //        Specialist withMaxSalary = StreamAPIUtil.findWithMaxSalary(specialists);
 //        System.out.println(withMaxSalary);
 
-////        // Grouping
+//        // Grouping
 //        System.out.println("");
 //        System.out.println("Grouping");
 //        Map<Specialty, List<Specialist>> groupedBySpecialty = StreamAPIUtil.groupBySpecialty(specialists);
@@ -55,15 +55,15 @@ public class StreamAPIDemo {
 //        // All engineers
 //        System.out.println("");
 //        System.out.println("All engineers");
-//        //boolean allEngineers = OldApproachUtil.matchAllEngineers(specialists);
-//        boolean allEngineers = StreamAPIUtil.matchAllEngineers(specialists);
+//        boolean allEngineers = OldApproachUtil.matchAllEngineers(specialists);
+////        boolean allEngineers = StreamAPIUtil.matchAllEngineers(specialists);
 //        System.out.println(allEngineers);
 
 //        // Any engineers
 //        System.out.println("");
 //        System.out.println("Any engineers");
-////        boolean anyEngineer = OldApproachUtil.matchAnyEnginner(specialists);
-//        boolean anyEngineer = StreamAPIUtil.matchAnyEngineer(specialists);
+//        boolean anyEngineer = OldApproachUtil.matchAnyEnginner(specialists);
+////        boolean anyEngineer = StreamAPIUtil.matchAnyEngineer(specialists);
 //        System.out.println(anyEngineer);
 
 //        // All salary more then
